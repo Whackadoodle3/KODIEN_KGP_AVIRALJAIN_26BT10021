@@ -31,7 +31,7 @@ def checkWin(XState, OState):
 
 XState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 OState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
-turn = 1 # 1 for X and 0 for O
+turn = 1 
 print("Welcome to Tic Tac Toe")
 while(True):
     printBoard(XState, OState)
