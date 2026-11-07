@@ -11,10 +11,11 @@ def printBoard(XState, OState):
     six = 'X' if XState[6] else ('O' if OState[6] else 6)
     seven = 'X' if XState[7] else ('O' if OState[7] else 7)
     eight = 'X' if XState[8] else ('O' if OState[8] else 8)
+    
     print(f"{zero} | {one} | {two} ")
-    print(f"--|---|---")
+    print("--|---|---")
     print(f"{three} | {four} | {five} ")
-    print(f"--|---|---")
+    print("--|---|---")
     print(f"{six} | {seven} | {eight} ") 
 
 def checkWin(XState, OState):
